@@ -1,0 +1,12 @@
+[package]
+name = "axum-aide-redoc-already-borrowed-gen-ctx-poc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aide = { version = "0.8.1", features = ["axum", "axum-extra", "redoc"] }
+axum = { version = "0.6.1", features = ["ws"] }
+futures = "0.3.25"
+tokio = { version = "1.22.0", features = ["macros", "rt-multi-thread"] }
